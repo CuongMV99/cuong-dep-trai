@@ -1,0 +1,683 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebBanHoa.SiteMaster" %>
+
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Fashi Template">
+    <meta name="keywords" content="Fashi, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website Ban Hang FASHI</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="~/Content/display.css" type="text/css">
+    <link rel="stylesheet" href="temp/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="temp/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="temp/css/themify-icons.css" type="text/css">
+    <link rel="stylesheet" href="temp/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="temp/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="temp/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="temp/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="temp/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="temp/css/style.css" type="text/css">
+</head>
+
+<body>
+ <!-- page preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- header section begin -->
+    <header class="header-section">
+        <div class="header-top">
+            <div class="container">
+                <div class="ht-left">
+                    <div class="mail-service">
+                        <i class=" fa fa-envelope"></i>
+                        hello.colorlib@gmail.com
+                    </div>
+                    <div class="phone-service">
+                        <i class=" fa fa-phone"></i>
+                        +65 11.188.888
+                    </div>
+                </div>
+                <div class="ht-right">
+                    <a href="#" class="login-panel"><i class="fa fa-user"></i>đăng nhập</a>
+<%--                    <div class="lan-selector">
+                        <select class="language_drop" name="countries" id="countries" style="width:300px;">
+                            <option value='yt' data-image="temp/img/flag-1.jpg" data-imagecss="flag yt"
+                                data-title="english">english</option>
+                            <option value='yu' data-image="temp/img/flag-2.jpg" data-imagecss="flag yu"
+                                data-title="bangladesh">german </option>
+                        </select>
+                    </div>--%>
+                    <div class="top-social">
+                        <a href="#"><i class="ti-facebook"></i></a>
+                        <a href="#"><i class="ti-twitter-alt"></i></a>
+                        <a href="#"><i class="ti-linkedin"></i></a>
+                        <a href="#"><i class="ti-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="inner-header">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2">
+                        <div class="logo">
+                            <a href="./index.html">
+                                <img src="temp/img/logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7">
+                        <div class="advanced-search">
+                            <button type="button" class="category-btn">all categories</button>
+                            <div class="input-group">
+                                <input type="text" placeholder="what do you need?">
+                                <button type="button"><i class="ti-search"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 text-right col-md-3">
+                        <ul class="nav-right">
+                            <li class="heart-icon">
+                                <a href="#">
+                                    <i class="icon_heart_alt"></i>
+                                    <span>1</span>
+                                </a>
+                            </li>
+                            <li class="cart-icon">
+                                <a href="#">
+                                    <i class="icon_bag_alt"></i>
+                                    <span>3</span>
+                                </a>
+                                <div class="cart-hover">
+                                    <div class="select-items">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="si-pic"><img src="temp/img/select-product-1.jpg" alt=""></td>
+                                                    <td class="si-text">
+                                                        <div class="product-selected">
+                                                            <p>$60.00 x 1</p>
+                                                            <h6>kabino bedside table</h6>
+                                                        </div>
+                                                    </td>
+                                                    <td class="si-close">
+                                                        <i class="ti-close"></i>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="si-pic"><img src="temp/img/select-product-2.jpg" alt=""></td>
+                                                    <td class="si-text">
+                                                        <div class="product-selected">
+                                                            <p>$60.00 x 1</p>
+                                                            <h6>kabino bedside table</h6>
+                                                        </div>
+                                                    </td>
+                                                    <td class="si-close">
+                                                        <i class="ti-close"></i>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="select-total">
+                                        <span>total:</span>
+                                        <h5>0 vnd</h5>
+                                    </div>
+                                    <div class="select-button">
+                                        <a href="#" class="primary-btn view-card">view card</a>
+                                        <a href="#" class="primary-btn checkout-btn">check out</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="cart-price">0 vnd</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-item">
+            <div class="container">
+                <div class="nav-depart">
+                    <div class="depart-btn">
+                        <i class="ti-menu"></i>
+                        <span>sản phẩm</span>
+                        <ul class="depart-hover">
+                            <asp:Repeater ID="rptProductList" runat="server">
+                                <ItemTemplate>
+                                    <li>
+                                        <a href="#">
+                                            <%#:Eval("tenDanhMuc") %>
+                                        </a>
+                                    </li>
+                                </ItemTemplate>
+                            </asp:Repeater>
+                        </ul>
+                    </div>
+                </div>
+                <nav class="nav-menu mobile-menu">
+                    <ul>
+                        <li class="active"><a href="/">trang chủ</a></li>
+                        <%--<li><a href="./shop.html">shop</a></li>--%>
+                        <li><a href="#">bộ sưu tập</a>
+                            <ul class="dropdown">
+                                <li><a href="#">men's</a></li>
+                                <li><a href="#">women's</a></li>
+                                <li><a href="#">kid's</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./blog.html">giới thiệu</a></li>
+                        <li><a href="?f=news">tin tức sự kiện</a></li>
+                        <li><a href="?f=contact">liên hệ</a></li>
+                        <%--<li><a href="#">pages</a>
+                            <ul class="dropdown">
+                                <li><a href="./blog-details.html">blog details</a></li>
+                                <li><a href="./shopping-cart.html">shopping cart</a></li>
+                                <li><a href="./check-out.html">checkout</a></li>
+                                <li><a href="./faq.html">faq</a></li>
+                                <li><a href="./register.html">register</a></li>
+                                <li><a href="./login.html">login</a></li>
+                            </ul>
+                        </li>--%>
+                    </ul>
+                </nav>
+                <div id="mobile-menu-wrap"></div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    
+    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+   <%-- <!-- hero section begin -->
+    <section class="hero-section">
+        <div class="hero-items owl-carousel">
+            <div class="single-hero-items set-bg" data-setbg="temp/img/hero-1.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <span>bag,kids</span>
+                            <h1>black friday</h1>
+                            <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore</p>
+                            <a href="#" class="primary-btn">shop now</a>
+                        </div>
+                    </div>
+                    <div class="off-card">
+                        <h2>sale <span>50%</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="single-hero-items set-bg" data-setbg="temp/img/hero-2.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <span>bag,kids</span>
+                            <h1>black friday</h1>
+                            <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore</p>
+                            <a href="#" class="primary-btn">shop now</a>
+                        </div>
+                    </div>
+                    <div class="off-card">
+                        <h2>sale <span>50%</span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero section end -->
+
+    <!-- banner section begin -->
+    <div class="banner-section spad">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="single-banner">
+                        <img src="temp/img/banner-1.jpg" alt="">
+                        <div class="inner-text">
+                            <h4>men’s</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-banner">
+                        <img src="temp/img/banner-2.jpg" alt="">
+                        <div class="inner-text">
+                            <h4>women’s</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-banner">
+                        <img src="temp/img/banner-3.jpg" alt="">
+                        <div class="inner-text">
+                            <h4>kid’s</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner section end -->
+
+    <!-- women banner section begin -->
+    <section class="women-banner spad">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="product-large set-bg" data-setbg="temp/img/products/women-large.jpg">
+                        <h2>women’s</h2>
+                        <a href="#">discover more</a>
+                    </div>
+                </div>
+                <div class="col-lg-8 offset-lg-1">
+                    <div class="filter-control">
+                        <ul>
+                            <li class="active">clothings</li>
+                            <li>handbag</li>
+                            <li>shoes</li>
+                            <li>accessories</li>
+                        </ul>
+                    </div>
+                    <div class="product-slider owl-carousel">
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="temp/img/products/women-1.jpg" alt="">
+                                <div class="sale">sale</div>
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                                <ul>
+                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="#">+ quick view</a></li>
+                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="pi-text">
+                                <div class="catagory-name">coat</div>
+                                <a href="#">
+                                    <h5>pure pineapple</h5>
+                                </a>
+                                <div class="product-price">
+                                    $14.00
+                                    <span>$35.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="temp/img/products/women-2.jpg" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                                <ul>
+                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="#">+ quick view</a></li>
+                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="pi-text">
+                                <div class="catagory-name">shoes</div>
+                                <a href="#">
+                                    <h5>guangzhou sweater</h5>
+                                </a>
+                                <div class="product-price">
+                                    $13.00
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="temp/img/products/women-3.jpg" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                                <ul>
+                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="#">+ quick view</a></li>
+                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="pi-text">
+                                <div class="catagory-name">towel</div>
+                                <a href="#">
+                                    <h5>pure pineapple</h5>
+                                </a>
+                                <div class="product-price">
+                                    $34.00
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="temp/img/products/women-4.jpg" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                                <ul>
+                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="#">+ quick view</a></li>
+                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="pi-text">
+                                <div class="catagory-name">towel</div>
+                                <a href="#">
+                                    <h5>converse shoes</h5>
+                                </a>
+                                <div class="product-price">
+                                    $34.00
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- women banner section end -->
+
+    <!-- deal of the week section begin-->
+    
+    <!-- man banner section begin -->
+    <section class="man-banner spad">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="filter-control">
+                        <ul>
+                            <li class="active">clothings</li>
+                            <li>handbag</li>
+                            <li>shoes</li>
+                            <li>accessories</li>
+                        </ul>
+                    </div>
+                    <div class="product-slider owl-carousel">
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="temp/img/products/man-1.jpg" alt="">
+                                <div class="sale">sale</div>
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                                <ul>
+                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="#">+ quick view</a></li>
+                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="pi-text">
+                                <div class="catagory-name">coat</div>
+                                <a href="#">
+                                    <h5>pure pineapple</h5>
+                                </a>
+                                <div class="product-price">
+                                    $14.00
+                                    <span>$35.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="temp/img/products/man-2.jpg" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                                <ul>
+                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="#">+ quick view</a></li>
+                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="pi-text">
+                                <div class="catagory-name">shoes</div>
+                                <a href="#">
+                                    <h5>guangzhou sweater</h5>
+                                </a>
+                                <div class="product-price">
+                                    $13.00
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="temp/img/products/man-3.jpg" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                                <ul>
+                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="#">+ quick view</a></li>
+                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="pi-text">
+                                <div class="catagory-name">towel</div>
+                                <a href="#">
+                                    <h5>pure pineapple</h5>
+                                </a>
+                                <div class="product-price">
+                                    $34.00
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="temp/img/products/man-4.jpg" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                                <ul>
+                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="#">+ quick view</a></li>
+                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="pi-text">
+                                <div class="catagory-name">towel</div>
+                                <a href="#">
+                                    <h5>converse shoes</h5>
+                                </a>
+                                <div class="product-price">
+                                    $34.00
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 offset-lg-1">
+                    <div class="product-large set-bg m-large" data-setbg="temp/img/products/man-large.jpg">
+                        <h2>men’s</h2>
+                        <a href="#">discover more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- man banner section end -->
+
+    <!-- instagram section begin -->
+    <div class="instagram-photo">
+        <div class="insta-item set-bg" data-setbg="temp/img/insta-1.jpg">
+            <div class="inside-text">
+                <i class="ti-instagram"></i>
+                <h5><a href="#">colorlib_collection</a></h5>
+            </div>
+        </div>
+        <div class="insta-item set-bg" data-setbg="temp/img/insta-2.jpg">
+            <div class="inside-text">
+                <i class="ti-instagram"></i>
+                <h5><a href="#">colorlib_collection</a></h5>
+            </div>
+        </div>
+        <div class="insta-item set-bg" data-setbg="temp/img/insta-3.jpg">
+            <div class="inside-text">
+                <i class="ti-instagram"></i>
+                <h5><a href="#">colorlib_collection</a></h5>
+            </div>
+        </div>
+        <div class="insta-item set-bg" data-setbg="temp/img/insta-4.jpg">
+            <div class="inside-text">
+                <i class="ti-instagram"></i>
+                <h5><a href="#">colorlib_collection</a></h5>
+            </div>
+        </div>
+        <div class="insta-item set-bg" data-setbg="temp/img/insta-5.jpg">
+            <div class="inside-text">
+                <i class="ti-instagram"></i>
+                <h5><a href="#">colorlib_collection</a></h5>
+            </div>
+        </div>
+        <div class="insta-item set-bg" data-setbg="temp/img/insta-6.jpg">
+            <div class="inside-text">
+                <i class="ti-instagram"></i>
+                <h5><a href="#">colorlib_collection</a></h5>
+            </div>
+        </div>
+    </div>
+    <!-- instagram section end -->
+
+    <!-- latest blog section begin -->
+    
+    <!-- partner logo section begin -->
+    <div class="partner-logo">
+        <div class="container">
+            <div class="logo-carousel owl-carousel">
+                <div class="logo-item">
+                    <div class="tablecell-inner">
+                        <img src="temp/img/logo-carousel/logo-1.png" alt="">
+                    </div>
+                </div>
+                <div class="logo-item">
+                    <div class="tablecell-inner">
+                        <img src="temp/img/logo-carousel/logo-2.png" alt="">
+                    </div>
+                </div>
+                <div class="logo-item">
+                    <div class="tablecell-inner">
+                        <img src="temp/img/logo-carousel/logo-3.png" alt="">
+                    </div>
+                </div>
+                <div class="logo-item">
+                    <div class="tablecell-inner">
+                        <img src="temp/img/logo-carousel/logo-4.png" alt="">
+                    </div>
+                </div>
+                <div class="logo-item">
+                    <div class="tablecell-inner">
+                        <img src="temp/img/logo-carousel/logo-5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- partner logo section end -->--%>
+
+    <!-- footer section begin -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer-left">
+                        <div class="footer-logo">
+                            <a href="#"><img src="temp/img/footer-logo.png" alt=""></a>
+                        </div>
+                        <ul>
+                            <li>address: 60-49 road 11378 new york</li>
+                            <li>phone: +65 11.188.888</li>
+                            <li>email: hello.colorlib@gmail.com</li>
+                        </ul>
+                        <div class="footer-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-1">
+                    <div class="footer-widget">
+                        <h5>information</h5>
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">checkout</a></li>
+                            <li><a href="#">contact</a></li>
+                            <li><a href="#">serivius</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer-widget">
+                        <h5>my account</h5>
+                        <ul>
+                            <li><a href="#">my account</a></li>
+                            <li><a href="#">contact</a></li>
+                            <li><a href="#">shopping cart</a></li>
+                            <li><a href="#">shop</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="newslatter-item">
+                        <h5>join our newsletter now</h5>
+                        <p>get e-mail updates about our latest shop and special offers.</p>
+                        <form action="#" class="subscribe-form">
+                            <input type="text" placeholder="enter your mail">
+                            <button type="button">subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-reserved">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright-text">
+                            <!-- link back to colorlib can't be removed. template is licensed under cc by 3.0. -->
+copyright &copy;<script>document.write(new date().getfullyear());</script> all rights reserved | this template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">colorlib</a>
+<!-- link back to colorlib can't be removed. template is licensed under cc by 3.0. -->
+                        </div>
+                        <div class="payment-pic">
+                            <img src="temp/img/payment-method.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end -->
+
+    <!-- Js Plugins -->
+    <script src="temp/js/jquery-3.3.1.min.js"></script>
+    <script src="temp/js/bootstrap.min.js"></script>
+    <script src="temp/js/jquery-ui.min.js"></script>
+    <script src="temp/js/jquery.countdown.min.js"></script>
+    <script src="temp/js/jquery.nice-select.min.js"></script>
+    <script src="temp/js/jquery.zoom.min.js"></script>
+    <script src="temp/js/jquery.dd.min.js"></script>
+    <script src="temp/js/jquery.slicknav.js"></script>
+    <script src="temp/js/owl.carousel.min.js"></script>
+    <script src="temp/js/main.js"></script>
+
+</body>
+
+</html>
+
+
+
+

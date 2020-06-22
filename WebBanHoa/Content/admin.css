@@ -1,0 +1,33 @@
+﻿body {
+    font-family:Arial;
+    font-size:12px;
+}
+
+div{
+    padding:7px 0px 7px 0px;
+}
+
+a{
+    text-decoration:none;
+}
+
+a:hover{
+    color:red;
+}
+
+.drp {
+    width: 176px;
+    height: 21px;
+}
+
+.imgViewChiTietTinTuc {
+    width:20%;
+}
+
+.tdimgNewsList{
+    width:20%;
+}
+
+.imgNewsList{
+    width:30%;
+}

@@ -1,0 +1,9 @@
+F:\Web_Nang_Cao\WebBanHoa\WebBanHoa.Dal\bin\Debug\WebBanHoa.Dal.dll
+F:\Web_Nang_Cao\WebBanHoa\WebBanHoa.Dal\bin\Debug\WebBanHoa.Dal.pdb
+F:\Web_Nang_Cao\WebBanHoa\WebBanHoa.Dal\bin\Debug\SQLDB1.dll
+F:\Web_Nang_Cao\WebBanHoa\WebBanHoa.Dal\bin\Debug\SQLDB1.pdb
+F:\Web_Nang_Cao\WebBanHoa\WebBanHoa.Dal\obj\Debug\WebBanHoa.Dal.csprojAssemblyReference.cache
+F:\Web_Nang_Cao\WebBanHoa\WebBanHoa.Dal\obj\Debug\WebBanHoa.Dal.csproj.CoreCompileInputs.cache
+F:\Web_Nang_Cao\WebBanHoa\WebBanHoa.Dal\obj\Debug\WebBanHoa.Dal.csproj.CopyComplete
+F:\Web_Nang_Cao\WebBanHoa\WebBanHoa.Dal\obj\Debug\WebBanHoa.Dal.dll
+F:\Web_Nang_Cao\WebBanHoa\WebBanHoa.Dal\obj\Debug\WebBanHoa.Dal.pdb

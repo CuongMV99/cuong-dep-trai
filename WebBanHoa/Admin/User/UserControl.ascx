@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="UserControl.ascx.cs" Inherits="WebBanHoa.Admin.User.UserControl" %>
+<div><a href="?f=user&fs=ttk">Tạo Tài Khoản</a>&nbsp;|&nbsp;<a href="?f=user&fs=dmk">Đổi mật khẩu</a></div>
